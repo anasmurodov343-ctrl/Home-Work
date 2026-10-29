@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #172135;
+  color: #ffffff;
+}
+
+.fofa1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%;
+}
+
+.fofa2 {
+  font-size: 24px;
+}
+
+.fofa3 {
+  display: flex;
+  gap: 25px;
+}
+
+.fofa4 {
+  color: #c0c6d4;
+  font-size: 15px;
+}
+
+.fofa5 {
+  color: #c0c6d4;
+  font-size: 15px;
+}
+
+.fofa6 {
+  color: #c0c6d4;
+  font-size: 15px;
+}
+
+.fofa7 {
+  color: #c0c6d4;
+  font-size: 15px;
+}
+
+.fofa8 {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.fofa9 {
+  color: #ffffff;
+}
+
+.fofa10 {
+  background-color: #23a6f0;
+  color: #ffffff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+}
+
+.fofa11 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 8%;
+  gap: 40px;
+}
+
+.fofa12 {
+  flex: 1;
+  max-width: 550px;
+}
+
+.fofa13 {
+  font-size: 52px;
+  margin-bottom: 25px;
+}
+
+.fofa14 {
+  font-size: 18px;
+  color: #a2aab8;
+  margin-bottom: 35px;
+}
+
+.fofa15 {
+  display: flex;
+  gap: 15px;
+}
+
+.fofa16 {
+  padding: 15px 35px;
+  border-radius: 30px;
+  background-color: #23a6f0;
+  color: #ffffff;
+  border: none;
+}
+
+.fofa17 {
+  padding: 15px 35px;
+  border-radius: 30px;
+  background-color: #172135;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.fofa18 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.fofa19 {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  background-color: #2979b9;
+  border-radius: 50%;
+}
+
+.fofa20 {
+  position: relative;
+}
+
+.fofa20 img {
+  max-width: 320px;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .fofa1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .fofa3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .fofa11 {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .fofa12 {
+    max-width: 100%;
+  }
+
+  .fofa13 {
+    font-size: 30px;
+  }
+
+  .fofa15 {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .fofa16 {
+    width: 100%;
+  }
+
+  .fofa17 {
+    width: 100%;
+  }
+
+  .fofa19 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .fofa20 img {
+    max-width: 200px;
+  }
+}

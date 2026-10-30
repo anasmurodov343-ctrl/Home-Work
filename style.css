@@ -643,3 +643,55 @@ body {
     padding: 25px 20px;
   }
 }
+.fofa91 {
+  padding: 80px 8%;
+  background-color: #172135;
+  color: #ffffff;
+}
+
+.fofa92 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.fofa93 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 200px;
+  width: 100%;
+}
+
+.fofa94 {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.fofa95 {
+  font-size: 14px;
+  color: #a2aab8;
+}
+
+.fofa96 {
+  display: flex;
+  gap: 20px;
+  margin-top: 5px;
+}
+
+.fofa97 {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+@media (max-width: 500px) {
+  .fofa92 {
+    flex-direction: column;
+  }
+
+  .fofa93 {
+    max-width: 100%;
+  }
+}

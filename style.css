@@ -377,14 +377,12 @@ body {
   border: 1px solid #3c4b64;
   border-radius: 10px;
   background-color: transparent;
-  cursor: pointer;
   min-width: 200px;
 }
 
 .fofa59 {
   width: 30px;
   height: 30px;
-  object-fit: contain;
 }
 
 .fofa60 {
